@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wapper{
+    padding: 0 10%;
+    margin-bottom: 100px;
+}
+.title_school {
+    padding: 10px 0px;
+}
+
+header h3{
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.color-red{
+    color: red;
+}
+
+.info-table {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+#main .block1 {
+    margin-top: 30px;
+}
+
+.contain-table table {
+    width: 100%;
+}
+
+.contain-table table td{
+    padding: 6px;
+    /* border: 1px solid; */
+}
+
+.padding-th {
+    padding: 7px ;
+}
+.padding-td-empty {
+    padding: 16px !important;
+}
+.th-static {
+    font-style: italic;
+    font-weight: 600;
+}
+
+td.diagonalFalling
+{
+	background: linear-gradient(to right top, #ffffff 0%,#ffffff 49.9%,#000000 50%,#000000 51%,#ffffff 51.1%,#ffffff 100%);
+}
+
+
+.confirmation_from_person {
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.confirmation_from_person>div:nth-child(2) {
+    display: grid;
+    text-align: center;
+}
+
